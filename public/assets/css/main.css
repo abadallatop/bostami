@@ -61,7 +61,7 @@ html,
 } */
 
 body, * {
-  cursor: none;
+  /* cursor: none; */
 }
 
 .flare {
@@ -2307,6 +2307,7 @@ textarea:focus::placeholder {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  
 }
 .sk-header-menu-btn .menu-btn {
   position: relative;

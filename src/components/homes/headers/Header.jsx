@@ -65,7 +65,6 @@ export default function Header({ lang }) {
     const direct = parts.length > 1 ? parts[2] : undefined;
     return direct !== undefined ? direct : "home";
   };
-  
   const direct = getDirectFromPathname();
   const [langMenuOpen, setLangMenuOpen] = useState(false);
 
@@ -131,7 +130,8 @@ export default function Header({ lang }) {
               </div>
             </div>
 
-            <div className="col-6">
+            {/* <div className="col-6"> */}
+            
               <div className="sk-header-menu-btn text-right">
                 <div className="column-container">
                   <div className="lang-options">
@@ -202,7 +202,7 @@ export default function Header({ lang }) {
             )}
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </div>
   );
 }

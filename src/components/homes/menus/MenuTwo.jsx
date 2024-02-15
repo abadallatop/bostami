@@ -6,8 +6,16 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { menuItems } from "@/data/menu";
 export default function Menu({ lang }) {
-  const pathname = usePathname();
+  let  pathname = usePathname();
+  
+
   const currentLang = lang || "en";
+
+  if (pathname.split('/').length <= 2) {
+    pathname = `/${currentLang}/home`;
+  }
+
+
   return (
     <div className="col-xxl-1 d-xxl-block d-none">
       <div className="sk-main-menu-wrap">

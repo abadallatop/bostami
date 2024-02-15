@@ -3,7 +3,16 @@
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 export default function Menu({ setMenuOpen, data, lang }) {
-  const pathname = usePathname();
+
+  let  pathname = usePathname();
+  
+
+  const currentLang = lang || "en";
+
+  if (pathname.split('/').length <= 2) {
+    pathname = `/${currentLang}/home`;
+  }
+ 
 
   return (
     <div className="mean-bar">
