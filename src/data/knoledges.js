@@ -9,4 +9,6 @@ export const knoledges = [
   "Firebase",
   "Cloud Computing",
   "DevOps",
+  "Assembly",
+  "Kotlin"
 ];
