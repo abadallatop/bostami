@@ -7,15 +7,42 @@ export const portfolioData = [
     target: "#portfolio-1",
     category: ["Windows Application"],
     languages: ["Python"],
-    client: "Envato",
+    client: "SCE",
     previewLink: "#",
-    previewName: "www.envato.com",
+    previewName: "Youtube",
     en: {
       project: "Windows Application",
       subtitle: "Cyber Security",
       title: "Keylogger",
       desc: [
-        `I've developed a software application featuring a user-friendly interface with diverse functionalities. The highlights include mouse tracking, keyboard logging, and the ability to capture screenshots at specified intervals or triggered events. The captured data can be conveniently sent to a predetermined email address or stored locally on the target system. The program is also equipped with a feature that scans for emails and passwords within the recorded information. Additionally, it boasts multilingual support, ensuring compatibility with various keyboard layouts and character sets.`,
+        `<div>
+        <h2>Software Application Overview</h2>
+        <p>
+          I've developed a software application featuring a user-friendly interface with diverse functionalities.
+        </p>
+      
+        <h3>Key Features</h3>
+        <ul>
+          <li>Mouse Tracking</li>
+          <li>Keyboard Logging</li>
+          <li>Screenshot Capture</li>
+        </ul>
+      
+        <p>
+          The application allows capturing screenshots at specified intervals or triggered events.
+          The captured data can be conveniently sent to a predetermined email address or stored locally on the target system.
+        </p>
+      
+        <h3>Data Analysis</h3>
+        <p>
+          The program is equipped with a feature that scans for emails and passwords within the recorded information.
+        </p>
+      
+        <h3>Multilingual Support</h3>
+        <p>
+          Additionally, the software boasts multilingual support, ensuring compatibility with various keyboard layouts and character sets.
+        </p>
+      </div>`,
       ],
     },
     ar: {
@@ -23,7 +50,34 @@ export const portfolioData = [
       title: "مسجل المفاتيح",
       project: "تطبيق لنظام التشغيل ويندوز",
       desc: [
-        `لقد قمت بتطوير تطبيق برمجي يتميز بواجهة سهلة الاستخدام مع وظائف متنوعة. يشمل ذلك تتبع الماوس وتسجيل لوحة المفاتيح والقدرة على التقاط لقطات الشاشة في فترات زمنية محددة أو حدث محدد. يمكن إرسال البيانات الملتقطة بسهولة إلى عنوان البريد الإلكتروني المحدد مسبقًا أو تخزينها محليًا على النظام المستهدف. يتميز البرنامج أيضًا بميزة تفحص البريد الإلكتروني وكلمات المرور ضمن المعلومات المسجلة. بالإضافة إلى ذلك، يتمتع بدعم متعدد اللغات، مما يضمن التوافق مع مختلف تخطيطات لوحات المفاتيح والمجموعات الأحرف.`,
+        `<div>
+        <h2>نظرة عامة على تطبيق البرمجيات</h2>
+        <p>
+          لقد قمت بتطوير تطبيق برمجي يتميز بواجهة سهلة الاستخدام مع وظائف متنوعة.
+        </p>
+      
+        <h3>الميزات الرئيسية</h3>
+        <ul>
+          <li>تتبع الفأرة</li>
+          <li>تسجيل لوحة المفاتيح</li>
+          <li>التقاط لقطات الشاشة</li>
+        </ul>
+      
+        <p>
+          يسمح التطبيق بالتقاط لقطات الشاشة في فترات زمنية محددة أو بناءً على أحداث محددة.
+          يمكن إرسال البيانات الملتقطة بسهولة إلى عنوان بريد إلكتروني محدد مسبقًا أو تخزينها محليًا على النظام المستهدف.
+        </p>
+      
+        <h3>تحليل البيانات</h3>
+        <p>
+          يتميز البرنامج بخاصية فحص البريد الإلكتروني وكلمات المرور ضمن المعلومات المسجلة.
+        </p>
+      
+        <h3>دعم متعدد اللغات</h3>
+        <p>
+          بالإضافة إلى ذلك، يفتخر البرنامج بدعم متعدد اللغات، مما يضمن التوافق مع تخطيطات لوحات المفاتيح المختلفة ومجموعات الأحرف.
+        </p>
+      </div>`,
       ],
     },
     he: {
@@ -31,7 +85,34 @@ export const portfolioData = [
       subtitle: "Cyber Security",
       title: "Keylogger",
       desc: [
-        `פיתחתי יישום תוכנה הכולל ממשק משתמש ידידותי עם פונקציות מגוונות. עקבות העכבר, הרשמת לוח המקשים והיכולת ללכוד צילומי מסך במרווחים ספציפיים או ארועים מופעלים הם תכונות נבחרות. הנתונים שנלכדים ניתן לשלוח בקלות לכתובת דוא"ל קבועה מראש או לאחסן אותם מקומית במערכת היעד. התוכנית גם מצויה ביכולת לסרוק עבור דואר אלקטרוני וסיסמאות בתוך המידע שנרשם. בנוסף, היא מתאם תמיכה מרובה שפות, המבטיחה תאימות עם סט כתובות לוח המקשים ומערכות תווים שונות.`,
+        `<div dir="rtl">
+        <h2>סקירת יישום תוכנה</h2>
+        <p>
+          פיתחתי יישום תוכנה המציע ממשק משתמש ידידותי עם פונקציות מגוונות.
+        </p>
+      
+        <h3>תכונות מרכזיות</h3>
+        <ul>
+          <li>מעקב אחר העכבר</li>
+          <li>רישום המקלדת</li>
+          <li>לכידת להקבצים בפרקי זמן או כאשר מתרחשות אירועים מסוימים</li>
+        </ul>
+      
+        <p>
+          היישום מאפשר ללכוד מידע ולשלוח אותו לכתובת דוא"ל מוגדרת מראש או לאחסן אותו מקומית במערכת היעד.
+        </p>
+      
+        <h3>ניתוח נתונים</h3>
+        <p>
+          התוכנה מצוידת בתכונה הבודקת את המידע שנלכד לחיפוש אחר כתובות דוא"ל וסיסמאות.
+        </p>
+      
+        <h3>תמיכה ברב שפות</h3>
+        <p>
+          בנוסף, התוכנה מתאימה לתמיכה ברב שפות, מבטיחה תאימות עם תצורות שונות של מקלדות וסטים של תווים.
+        </p>
+      </div>
+      `,
       ],
     },
   },
@@ -45,30 +126,53 @@ export const portfolioData = [
     category: ["Phone Application"],
 
     languages: ["Java", "XML"],
-    client: "Envato",
+    client: "SCE",
     previewLink: "#",
-    previewName: "www.envato.com",
+    previewName: "YouTube",
     en: {
       project: "Android Application",
       subtitle: "NFC",
       title: "Quick Entry",
       desc: [
-        `This application is the first version of an Android application designed to manage the Smart Green Card Examination System.`,
-        `It facilitates quick verification through the NFC system by displaying the green signal.`,
-        ``,
-        `The app caters to three different types of users:`,
-        ``,
-        `1. Normal Account:`,
-        `     To upload the green card during account creation.`,
-        `     Displays the green card and its details.`,
-        `     Allows scanning via NFC for quick access.`,
-        ``,
-        `2. Business Account:`,
-        `     Monitors gate activity.`,
-        `     Tracks the number of people entered through the gate.`,
-        ``,
-        `3. Administrator Account:`,
-        `     Grants users the ability to use their green card.`,
+        `<div>
+        <p>
+          This application is the first version of an Android application designed to manage the Smart Green Card Examination System.
+        </p>
+      
+        <p>
+          It facilitates quick verification through the NFC system by displaying the green signal.
+        </p>
+      
+        <p>&nbsp;</p>
+      
+        <p>
+          The app caters to three different types of users:
+        </p>
+      
+        <p>&nbsp;</p>
+      
+        <h4>1. Normal Account:</h4>
+        <ul>
+          <li>To upload the green card during account creation.</li>
+          <li>Displays the green card and its details.</li>
+          <li>Allows scanning via NFC for quick access.</li>
+        </ul>
+      
+        <p>&nbsp;</p>
+      
+        <h4>2. Business Account:</h4>
+        <ul>
+          <li>Monitors gate activity.</li>
+          <li>Tracks the number of people entered through the gate.</li>
+        </ul>
+      
+        <p>&nbsp;</p>
+      
+        <h4>3. Administrator Account:</h4>
+        <ul>
+          <li>Grants users the ability to use their green card.</li>
+        </ul>
+      </div>`,
       ],
     },
 
@@ -77,22 +181,46 @@ export const portfolioData = [
       title: "دخول سريع",
       project: "تطبيق أندرويد",
       desc: [
-        `هذا التطبيق هو الإصدار الأول من تطبيق أندرويد مصمم لإدارة نظام امتحان البطاقة الخضراء الذكي.`,
-        `يسهل التحقق السريع من خلال نظام NFC عن طريق عرض الإشارة الخضراء.`,
-        ``,
-        `يخدم التطبيق ثلاثة أنواع مختلفة من المستخدمين:`,
-        ``,
-        `1. حساب عادي:`,
-        `     لتحميل البطاقة الخضراء أثناء إنشاء الحساب.`,
-        `     يعرض البطاقة الخضراء وتفاصيلها.`,
-        `     يسمح بالمسح عبر NFC للوصول السريع.`,
-        ``,
-        `2. حساب تجاري:`,
-        `     يراقب نشاط البوابة.`,
-        `     يتتبع عدد الأشخاص الذين دخلوا من خلال البوابة.`,
-        ``,
-        `3. حساب المسؤول:`,
-        `     يمنح المستخدمين القدرة على استخدام بطاقتهم الخضراء.`,
+        `<div dir="rtl">
+        <p>
+          هذا التطبيق هو الإصدار الأول من تطبيق Android المصمم لإدارة نظام امتحان بطاقة الخضراء الذكية.
+        </p>
+      
+        <p>
+          يسهل التحقق السريع من خلال نظام NFC عبر عرض إشارة خضراء.
+        </p>
+      
+        <p>&nbsp;</p>
+      
+        <p>
+          التطبيق يلبي احتياجات ثلاثة أنواع مختلفة من المستخدمين:
+        </p>
+      
+        <p>&nbsp;</p>
+      
+        <h4>1. حساب عادي:</h4>
+        <ul>
+          <li>لتحميل بطاقة الخضراء أثناء إنشاء الحساب.</li>
+          <li>يعرض بطاقة الخضراء وتفاصيلها.</li>
+          <li>يسمح بالمسح عبر NFC للوصول السريع.</li>
+        </ul>
+      
+        <p>&nbsp;</p>
+      
+        <h4>2. حساب تجاري:</h4>
+        <ul>
+          <li>يراقب نشاط البوابة.</li>
+          <li>يتتبع عدد الأشخاص الذين دخلوا من خلال البوابة.</li>
+        </ul>
+      
+        <p>&nbsp;</p>
+      
+        <h4>3. حساب المسؤول:</h4>
+        <ul>
+          <li>يمنح المستخدمين القدرة على استخدام بطاقتهم الخضراء.</li>
+        </ul>
+      </div>
+      `,
       ],
     },
     he: {
@@ -100,22 +228,34 @@ export const portfolioData = [
       subtitle: "NFC",
       title: "כניסה מהירה",
       desc: [
-        `אפליקציה זו היא הגרסה הראשונה של יישום אנדרואיד המיועד לניהול של מערכת בחינת כרטיס הירוק החכם.`,
-        `הוא מקל facilit האימות המהיר דרך מערכת NFC על ידי הצגת אות ירוק.`,
-        ``,
-        `היישום מתאים לשלושה סוגים שונים של משתמשים:`,
-        ``,
-        `1. חשבון רגיל:`,
-        `     להעלות את כרטיס הירוק במהלך יצירת החשבון.`,
-        `     מציג את כרטיס הירוק ופרטיו.`,
-        `     מאפשר סריקה דרך NFC לגישה מהירה.`,
-        ``,
-        `2. חשבון עסקי:`,
-        `     ניטור של פעילות שער.`,
-        `     מעקב אחר מספר האנשים שנכנסו דרך השער.`,
-        ``,
-        `3. חשבון מנהל:`,
-        `     נותן למשתמשים את היכולת להשתמש בכרטיס הירוק שלהם.`,
+        `<div dir="rtl">
+        <p>
+          היישום הזה הוא הגרסה הראשונה של יישום Android המיועד לניהול של מערכת בדיקת כרטיס הירוק החכם.
+        </p>
+      
+        <p>
+          הוא מקל facilitatהעל ובדיקה מהירה דרך מערכת NFC על ידי הצגת האות הירוק.
+        </p>
+      
+        <p>&nbsp;</p>
+      
+        <p>
+          היישום מתמקד בשלושה סוגים שונים של משתמשים:
+        </p>
+      
+        <p>&nbsp;</p>
+      
+        <h4>1. חשבון רגיל:</h4>
+        <ul>
+          <li>העלאת כרטיס הירוק במהלך יצירת החשבון.</li>
+          <li>מציג את כרטיס הירוק ופרטיו.</li>
+          <li>מאפשר סריקה דרך NFC לגישה מהירה.</li>
+        </ul>
+      
+        <p>&nbsp;</p>
+      
+        <h4>2. חשבון עסק
+      `,
       ],
     },
   },
@@ -127,11 +267,11 @@ export const portfolioData = [
     target: "#portfolio-1",
     category: ["Phone Application"],
     languages: ["JAVA", "XML", "PHP", "HTML"],
-    client: "Envato",
+    client: "Deqa",
     previewLink: "https://youtu.be/q8QYNhOvixg",
     previewName: "YouTube",
     en: {
-      subtitle: "Travel Landing , UX/UI",
+      subtitle: "Cashing",
       project: "Android Application",
       title: "Step Coins",
       desc: [
@@ -403,7 +543,7 @@ export const portfolioData = [
     target: "#portfolio-1",
     category: ["Website"],
     languages: ["Java", "React", "SCSS", "SQL"],
-    client: "Envato",
+    client: "SCE",
     previewLink: "https://youtu.be/QC-Hofmy7HM",
     previewName: "YouTube",
     en: {
@@ -411,10 +551,21 @@ export const portfolioData = [
       title: "Warehouse Management",
       project: "Website Application",
       desc: [
-        `I have developed an engaging Android application using Android Studio, complemented by a PHP server. The primary functionality of the app is to count the number of steps taken by the user and reward them with virtual currency, which can be earned through various activities. Users have the opportunity to accumulate coins by either watching advertisements or engaging in the interactive feature of scrolling wheels within the app. The incentive-based system encourages physical activity and user engagement. The backend server, built with PHP, facilitates the seamless communication between the app and the server, ensuring secure and efficient data transfer. This two-way communication allows for accurate step counting, coin attribution, and synchronization of user activities.
-  
-        the project aims to promote a healthy lifestyle by incentivizing physical activity and user interaction, providing a fun and rewarding experience for the app's users
-        `,
+        `<div>
+        <p>
+          I have developed an engaging Android application using Android Studio, complemented by a PHP server.
+          The primary functionality of the app is to count the number of steps taken by the user and reward them with virtual currency, which can be earned through various activities.
+          Users have the opportunity to accumulate coins by either watching advertisements or engaging in the interactive feature of scrolling wheels within the app.
+          The incentive-based system encourages physical activity and user engagement.
+          The backend server, built with PHP, facilitates the seamless communication between the app and the server, ensuring secure and efficient data transfer.
+          This two-way communication allows for accurate step counting, coin attribution, and synchronization of user activities.
+        </p>
+      
+        <p>
+          The project aims to promote a healthy lifestyle by incentivizing physical activity and user interaction, providing a fun and rewarding experience for the app's users.
+        </p>
+      </div>
+             `,
       ],
     },
 
@@ -423,12 +574,21 @@ export const portfolioData = [
       title: "إدارة المستودع",
       project: "تطبيق الويب",
       desc: [
-        `لقد قمت بتطوير تطبيق أندرويد جذاب باستخدام Android Studio، بالإضافة إلى خادم PHP. الوظيفة الرئيسية للتطبيق هي حساب عدد الخطوات التي يقوم بها المستخدم ومكافأتهم بعملة افتراضية يمكن كسبها من خلال أنشطة متنوعة.`,
-        `يتيح للمستخدمين فرصة تراكم العملات عن طريق مشاهدة الإعلانات أو المشاركة في ميزة التفاعل مع عجلات التمرير داخل التطبيق. يشجع النظام المستند إلى الحوافز على ممارسة النشاط البدني وجذب انتباه المستخدم.`,
-        ``,
-        `يسهل الخادم الخلفي، الذي تم إنشاؤه بواسطة PHP، التواصل السلس بين التطبيق والخادم، مما يضمن نقل البيانات بطريقة آمنة وفعالة. يتيح هذا التواصل ذو الاتجاهين عد الخطوات بدقة، وتسجيل العملة، وتزامن أنشطة المستخدم.`,
-        ``,
-        `يهدف المشروع إلى تعزيز نمط حياة صحي من خلال تحفيز النشاط البدني وتفاعل المستخدم، مما يوفر تجربة ممتعة ومجزية لمستخدمي التطبيق.`,
+        `<div dir="rtl">
+        <p>
+          لقد قمت بتطوير تطبيق Android جذاب باستخدام Android Studio، مكملًا بخادم PHP.
+          وظيفة التطبيق الرئيسية هي حساب عدد الخطوات التي يقوم بها المستخدم ومكافأتهم بعملة افتراضية، يمكن كسبها من خلال أنشطة متنوعة.
+          يتاح للمستخدمين فرصة تجميع النقود سواء عن طريق مشاهدة الإعلانات أو المشاركة في ميزة التفاعل مع عجلات التمرير داخل التطبيق.
+          يشجع النظام المبني على الحوافز على النشاط البدني ومشاركة المستخدم.
+          الخادم الخلفي، الذي تم إنشاؤه باستخدام PHP، يسهل التواصل السلس بين التطبيق والخادم، مضمنًا نقل البيانات بشكل آمن وفعال.
+          هذا التواصل ذو الاتجاهين يسمح بعد الخطوة الدقيقة، تسجيل النقود، وتزامن أنشطة المستخدم.
+        </p>
+      
+        <p>
+          يهدف المشروع إلى تعزيز نمط حياة صحي من خلال تحفيز النشاط البدني والتفاعل مع المستخدم، وتوفير تجربة ممتعة ومكافآت لمستخدمي التطبيق.
+        </p>
+      </div>
+      `,
       ],
     },
     he: {
@@ -436,12 +596,21 @@ export const portfolioData = [
       title: "ניהול מחסן",
       project: "יישום אתר אינטרנט",
       desc: [
-        `פיתחתי אפליקציה אנדרואיד מעניינת באמצעות Android Studio, משולמת על ידי שרת PHP. הפונקציות העיקריות של האפליקציה הן לספור את מספר הצעדים שנעשו על ידי המשתמש ולהטיל עליו מטבע וירטואלי, שניתן לרווד דרך פעילויות שונות.`,
-        `המשתמשים יש להם הזדמנות לצבור מטבעות על ידי צפייה בפרסומות או השתתפות בתכונה אינטראקטיבית של גלגלי גלילה בתוך האפליקציה. המערכת המבוססת על פיסות מעוררת לפעולה פיזית והתמקדות של המשתמש.`,
-        ``,
-        `השרת האחורי, בנוי עם PHP, מקל על התקשורת החלקה בין האפליקציה והשרת, מבטיח העברת נתונים מאובטחת ויעילה. התקשורת הדו-כיוונית הזו מאפשרת לספור באופן מדויק את מספר הצעדים, שיותרת את המטבע, וסנכרון של פעולות המשתמש.`,
-        ``,
-        `הפרויקט מטרתו לקדם אורח חיים בריא על ידי עידוד לפעילות גופנית והתמקדות של המשתמש, ומספק חוויה כיפית ומגמילה למשתמשי האפליקציה.`,
+        `<div dir="rtl">
+        <p>
+          פיתחתי אפליקציה מרתקת למערכת Android באמצעות Android Studio, בתיאום עם שרת PHP.
+          הפונקציה העיקרית של האפליקציה היא לספור את מספר הצעדים שנעשו על ידי המשתמש ולפרסם לו מטבע וירטואלי, אשר ניתן להרוויח דרך פעילויות שונות.
+          המשתמשים יכולים לצבור מטבעות על ידי צפייה בפרסומות או השתתפות בתכונה אינטראקטיבית של גלגלי גלילה באפליקציה.
+          המערכת המבוססת על החייטים מעודדת פעילות גופנית והשתתפות משתמש.
+          השרת האחורי, הנבנה ב-PHP, מקל על התקשורת הסלסלה בין האפליקציה והשרת, ומבטיח העברת נתונים בצורה מאובטחת ויעילה.
+          התקשורת הזו בשני הכיוונים מאפשרת ספירת צעדים מדויקת, הקניית מטבע, וסנכרון של פעולות המשתמש.
+        </p>
+      
+        <p>
+          המטרה של הפרויקט היא לקדם אורח חיים בריא על ידי תמיכה בפעילות גופנית ובאינטראקציה עם המשתמש, ולספק חוויה כיפית ומגמישה למשתמשי האפליקציה.
+        </p>
+      </div>
+      `,
       ],
     },
   },
@@ -453,7 +622,7 @@ export const portfolioData = [
     target: "#portfolio-1",
     category: ["Website"],
     languages: ["C#", "HTMl", "CSS"],
-    client: "Envato",
+    client: "SCE",
     previewLink: "https://youtu.be/Ambkd9l0r0c",
     previewName: "YouTube",
     en: {
@@ -461,7 +630,16 @@ export const portfolioData = [
       title: "Booking Flight",
       project: "Website",
       desc: [
-        `I have developed a comprehensive flight booking website that leverages Firebase for seamless data management. The website allows users to efficiently search for flights from a database, select preferred travel plans, and proceed to securely pay for tickets using PayPal. The integration of Firebase ensures real-time updates and a smooth user experience, while the intuitive interface facilitates easy navigation and booking. The use of PayPal as a payment gateway adds an extra layer of security and convenience for users engaging in the ticket booking process. This project aims to provide a user-friendly and efficient platform for travelers to plan and book their flights hassle-free.`,
+        `<div>
+        <p>
+          I have developed a comprehensive flight booking website that leverages Firebase for seamless data management.
+          The website allows users to efficiently search for flights from a database, select preferred travel plans, and proceed to securely pay for tickets using PayPal.
+          The integration of Firebase ensures real-time updates and a smooth user experience, while the intuitive interface facilitates easy navigation and booking.
+          The use of PayPal as a payment gateway adds an extra layer of security and convenience for users engaging in the ticket booking process.
+          This project aims to provide a user-friendly and efficient platform for travelers to plan and book their flights hassle-free.
+        </p>
+      </div>
+      `,
       ],
     },
 
@@ -492,7 +670,7 @@ export const portfolioData = [
     target: "#portfolio-1",
     category: ["Windows Application"],
     languages: ["JAVA"],
-    client: "Envato",
+    client: "SCE",
     previewLink: "https://youtu.be/VVLAjgNPgDM",
     previewName: "YouTube",
     en: {
@@ -555,7 +733,7 @@ export const portfolioData = [
     category: ["Windows Application"],
 
     languages: ["JavaFx"],
-    client: "Envato",
+    client: "SCE",
     previewLink: "https://youtu.be/VVLAjgNPgDM",
     previewName: "YouTube",
     en: {

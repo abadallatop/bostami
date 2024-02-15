@@ -62,8 +62,10 @@ export default function Header({ lang }) {
   const getDirectFromPathname = () => {
     const pathname = usePathname();
     const parts = pathname.split("/");
-    return parts.length > 1 ? parts[2] : "home";
+    const direct = parts.length > 1 ? parts[2] : undefined;
+    return direct !== undefined ? direct : "home";
   };
+  
   const direct = getDirectFromPathname();
   const [langMenuOpen, setLangMenuOpen] = useState(false);
 
