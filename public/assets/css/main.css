@@ -28,6 +28,7 @@ CSS INDEX
 13. blog details
 14. sidebar
 15. dark theme
+16.animations
 
 ******************************************************* 
 *************************************************************** */
@@ -2441,7 +2442,7 @@ textarea:focus::placeholder {
   transform: scaleY(1);
 }
 
-.bastami-main-menu ul li {
+.sk-main-menu ul li {
   background-color: var(--light-white);
   border-radius: 12px;
   width: 84px;
@@ -2452,65 +2453,65 @@ textarea:focus::placeholder {
   text-align: center;
   transition: 0.3s;
 }
-.bastami-main-menu ul li:not(:last-child) {
+.sk-main-menu ul li:not(:last-child) {
   margin-bottom: 20px;
 }
-.bastami-main-menu ul li a {
+.sk-main-menu ul li a {
   display: block;
   font-size: 13px;
   text-transform: capitalize;
   font-weight: 500;
   line-height: 1;
 }
-.bastami-main-menu ul li a span {
+.sk-main-menu ul li a span {
   display: block;
   margin-bottom: 12px;
 }
-.bastami-main-menu ul li:is(.active) {
+.sk-main-menu ul li:is(.active) {
   background-color: var(--theme-primary);
 }
-.bastami-main-menu ul li:is(.active) a {
+.sk-main-menu ul li:is(.active) a {
   color: var(--common-white);
 }
-.bastami-main-menu ul li:is(.active) a span svg * {
+.sk-main-menu ul li:is(.active) a span svg * {
   fill: var(--common-white);
 }
-.bastami-main-menu ul li:is(.active) a span img {
+.sk-main-menu ul li:is(.active) a span img {
   filter: brightness(5);
 }
-.bastami-main-menu ul li:hover {
+.sk-main-menu ul li:hover {
   background-color: var(--theme-primary);
 }
-.bastami-main-menu ul li:hover a {
+.sk-main-menu ul li:hover a {
   color: var(--common-white);
 }
-.bastami-main-menu ul li:hover a span svg * {
+.sk-main-menu ul li:hover a span svg * {
   fill: var(--common-white);
 }
-.bastami-main-menu ul li:hover a span img {
+.sk-main-menu ul li:hover a span img {
   filter: brightness(5);
 }
-.dark-theme .bastami-main-menu ul li a span img {
+.dark-theme .sk-main-menu ul li a span img {
   filter: invert(0.8) !important;
 }
 
-.dark-theme .bastami-main-menu ul li.active a span img {
+.dark-theme .sk-main-menu ul li.active a span img {
   filter: brightness(5) !important;
 }
-.dark-theme .home-1 .bastami-main-menu ul li:hover a span img,
-.dark-theme .home-3 .bastami-main-menu ul li:hover a span img {
+.dark-theme .home-1 .sk-main-menu ul li:hover a span img,
+.dark-theme .home-3 .sk-main-menu ul li:hover a span img {
   filter: brightness(5) !important;
 }
-.dark-theme .page-wrapper-2 .bastami-main-menu ul li:hover a span img {
+.dark-theme .page-wrapper-2 .sk-main-menu ul li:hover a span img {
   filter: invert(1) !important;
 }
-.bastami-main-menu ul li a span img {
+.sk-main-menu ul li a span img {
   width: 20px;
 }
-.bastami-main-menu ul li.active:first-child a span img {
+.sk-main-menu ul li.active:first-child a span img {
   filter: invert(1) !important;
 }
-.bastami-main-menu ul li:first-child:hover a span img {
+.sk-main-menu ul li:first-child:hover a span img {
   filter: invert(1);
 }
 .header-right-flex {
@@ -2531,13 +2532,13 @@ textarea:focus::placeholder {
   top: unset;
   display: inline-block;
 }
-.main-style-2 .sk-main-menu-wrap .bastami-main-menu {
+.main-style-2 .sk-main-menu-wrap .sk-main-menu {
   display: inline-block;
 }
-.main-style-2 .sk-main-menu-wrap .bastami-main-menu ul {
+.main-style-2 .sk-main-menu-wrap .sk-main-menu ul {
   display: inline-block;
 }
-.main-style-2 .sk-main-menu-wrap .bastami-main-menu ul li {
+.main-style-2 .sk-main-menu-wrap .sk-main-menu ul li {
   display: inline-block;
   background-color: var(--light-white);
   border-radius: 8px;
@@ -2547,15 +2548,15 @@ textarea:focus::placeholder {
   transition: 0.3s;
   margin-bottom: 0;
 }
-.main-style-2 .sk-main-menu-wrap .bastami-main-menu ul li:not(:first-child) {
+.main-style-2 .sk-main-menu-wrap .sk-main-menu ul li:not(:first-child) {
   margin-left: 16px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .main-style-2 .sk-main-menu-wrap .bastami-main-menu ul li:not(:first-child) {
+  .main-style-2 .sk-main-menu-wrap .sk-main-menu ul li:not(:first-child) {
     margin-left: 5px;
   }
 }
-.main-style-2 .sk-main-menu-wrap .bastami-main-menu ul li a {
+.main-style-2 .sk-main-menu-wrap .sk-main-menu ul li a {
   background: #fff;
   border-radius: 8px;
   padding: 0px 19px;
@@ -2564,11 +2565,11 @@ textarea:focus::placeholder {
   line-height: 40px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .main-style-2 .sk-main-menu-wrap .bastami-main-menu ul li a {
+  .main-style-2 .sk-main-menu-wrap .sk-main-menu ul li a {
     padding: 0px 10px;
   }
 }
-.main-style-2 .sk-main-menu-wrap .bastami-main-menu ul li a:hover {
+.main-style-2 .sk-main-menu-wrap .sk-main-menu ul li a:hover {
   background: rgb(250, 82, 82);
   background: linear-gradient(
     97deg,
@@ -2576,15 +2577,15 @@ textarea:focus::placeholder {
     rgb(221, 36, 118) 100%
   );
 }
-.main-style-2 .sk-main-menu-wrap .bastami-main-menu ul li a span {
+.main-style-2 .sk-main-menu-wrap .sk-main-menu ul li a span {
   display: inline-block;
   margin-bottom: 0;
   margin-right: 5px;
 }
-.main-style-2 .sk-main-menu-wrap .bastami-main-menu ul li a span svg {
+.main-style-2 .sk-main-menu-wrap .sk-main-menu ul li a span svg {
   width: 20px;
 }
-.main-style-2 .sk-main-menu-wrap .bastami-main-menu ul li:is(.active) a {
+.main-style-2 .sk-main-menu-wrap .sk-main-menu ul li:is(.active) a {
   background: rgb(250, 82, 82);
   background: linear-gradient(
     97deg,
@@ -2646,21 +2647,21 @@ textarea:focus::placeholder {
     display: none;
   }
 }
-.home-3 .bastami-main-menu ul li {
+.home-3 .sk-main-menu ul li {
   display: inline-flex;
   margin-bottom: 0;
 }
-.home-3 .bastami-main-menu ul li:not(:first-child) {
+.home-3 .sk-main-menu ul li:not(:first-child) {
   margin-left: 16px;
 }
-.home-3 .bastami-main-menu ul li:hover {
+.home-3 .sk-main-menu ul li:hover {
   background: linear-gradient(
     97deg,
     rgb(250, 82, 82) 0%,
     rgb(221, 36, 118) 100%
   );
 }
-.home-3 .bastami-main-menu ul li:is(.active) {
+.home-3 .sk-main-menu ul li:is(.active) {
   background: linear-gradient(
     97deg,
     rgb(250, 82, 82) 0%,
@@ -2844,6 +2845,10 @@ textarea:focus::placeholder {
     padding: 40px 30px;
   }
 }
+
+
+
+
 .sk-parsonal-info-img {
   width: 240px;
   height: 240px;
@@ -2852,7 +2857,15 @@ textarea:focus::placeholder {
   margin: auto;
   margin-bottom: 21px;
   margin-top: -180px;
+  box-shadow: 0 4px 8px var(--shadow);
+  transition: box-shadow 0.3s ease; 
+
 }
+
+.sk-parsonal-info-img:hover {
+  box-shadow: 0 8px 16px var(--shadow, rgba(0, 0, 0, 0.3)); /* Adjust shadow on hover */
+}
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .sk-parsonal-info-img {
     width: 210px;
@@ -3168,6 +3181,12 @@ textarea:focus::placeholder {
 07. what do
 ******************************************************* 
 *************************************************************** */
+
+
+.sk-what-do-wrap{
+ 
+}
+
 .sk-what-do-item {
   border-radius: 12px;
   display: flex;
@@ -3175,6 +3194,12 @@ textarea:focus::placeholder {
   padding: 20px;
   padding-bottom: 15px;
   margin-bottom: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+
+  &:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px var(--shadow); 
+  }
 }
 @media (max-width: 767px) {
   .sk-what-do-item {
@@ -3252,6 +3277,7 @@ textarea:focus::placeholder {
   padding: 20px;
   border-radius: 12px;
   padding-top: 25px;
+  box-shadow: 0 4px 8px var(--shadow); 
 }
 .sk-card-item .card-subtitle {
   display: block;
@@ -3306,15 +3332,27 @@ textarea:focus::placeholder {
 }
 
 .progress-bar-wrap {
-  height: 6px;
-  background: #edf2f2;
-  border-radius: 6px;
-  overflow: inherit;
+  width: 100%;
+  background-color: #eee;
+  border-radius: 5px;
+  overflow: hidden; /* Ensure the rounded corners are applied to the progress bar */
 }
 
 .progress-line {
-  height: 100%;
-  border-radius: inherit;
+  height: 10px;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  animation: progressAnimation 4s ease-out;
+}
+
+@keyframes progressAnimation {
+  from {
+    width: 0;
+  }
+  to {
+    /* Dynamically set the width based on elm.progress */
+    width: var(--progress-width, 0%);
+  }
 }
 
 .progress-bg-1 {
@@ -3342,8 +3380,13 @@ textarea:focus::placeholder {
   padding: 5px 20px;
   margin-right: 10px;
   margin-bottom: 20px;
-}
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
 
+  &:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px var(--shadow); 
+  }
+}
 @media (max-width: 767px) {
   .sk-resume-page {
     padding-left: 20px;
@@ -4903,7 +4946,7 @@ textarea:focus::placeholder {
   .page-wrapper
   .main-style-2
   .sk-main-menu-wrap
-  .bastami-main-menu
+  .sk-main-menu
   ul
   li
   a {
@@ -4917,20 +4960,20 @@ textarea:focus::placeholder {
 .dark-theme .page-wrapper .knowledeges-item-wrap .gk-item {
   background-color: #1c1c1c;
 }
-.dark-theme .page-wrapper .bastami-main-menu ul li,
+.dark-theme .page-wrapper .sk-main-menu ul li,
 .dark-theme .page-wrapper .sk-contact-item {
   background-color: #212425;
 }
-.dark-theme .page-wrapper .bastami-main-menu ul li.active a {
+.dark-theme .page-wrapper .sk-main-menu ul li.active a {
   color: #fff;
 }
-.dark-theme .page-wrapper .bastami-main-menu ul li.active {
+.dark-theme .page-wrapper .sk-main-menu ul li.active {
   background-color: var(--theme-primary);
 }
-.dark-theme .page-wrapper .bastami-main-menu ul li:hover a {
+.dark-theme .page-wrapper .sk-main-menu ul li:hover a {
   color: #fff;
 }
-.dark-theme .page-wrapper .bastami-main-menu ul li:hover {
+.dark-theme .page-wrapper .sk-main-menu ul li:hover {
   background-color: var(--theme-primary);
 }
 .dark-theme .page-wrapper .sk-what-do-item,
@@ -5084,7 +5127,7 @@ textarea:focus::placeholder {
   .page-wrapper-2
   .main-style-2
   .sk-main-menu-wrap
-  .bastami-main-menu
+  .sk-main-menu
   ul
   li
   a
@@ -5100,7 +5143,7 @@ textarea:focus::placeholder {
   .page-wrapper-2
   .main-style-2
   .sk-main-menu-wrap
-  .bastami-main-menu
+  .sk-main-menu
   ul
   li
   a
@@ -5128,10 +5171,10 @@ textarea:focus::placeholder {
     rgb(221, 36, 118) 100%
   );
 }
-.dark-theme .home-3 .bastami-main-menu ul li:is(.active) a span svg * {
+.dark-theme .home-3 .sk-main-menu ul li:is(.active) a span svg * {
   fill: white;
 }
-.dark-theme .home-3 .bastami-main-menu ul li:hover a span svg * {
+.dark-theme .home-3 .sk-main-menu ul li:hover a span svg * {
   fill: white;
 }
 .dark-theme .home-3 .sk-header-wrap {
@@ -5144,14 +5187,14 @@ textarea:focus::placeholder {
     rgb(221, 36, 118) 100%
   );
 }
-.dark-theme .home-3 .bastami-main-menu ul li:is(.active) {
+.dark-theme .home-3 .sk-main-menu ul li:is(.active) {
   background: linear-gradient(
     97deg,
     rgb(250, 82, 82) 0%,
     rgb(221, 36, 118) 100%
   );
 }
-.dark-theme .home-3 .bastami-main-menu ul li:hover {
+.dark-theme .home-3 .sk-main-menu ul li:hover {
   background: linear-gradient(
     97deg,
     rgb(250, 82, 82) 0%,
@@ -5168,14 +5211,14 @@ textarea:focus::placeholder {
 .dark-theme .home-1 .sk-header-wrap {
   background: transparent;
 }
-.dark-theme .home-1 .bastami-main-menu ul li.active a span svg * {
+.dark-theme .home-1 .sk-main-menu ul li.active a span svg * {
   fill: white;
 }
-.dark-theme .home-1 .bastami-main-menu ul li a span svg *,
-.dark-theme .home-3 .bastami-main-menu ul li a span svg * {
+.dark-theme .home-1 .sk-main-menu ul li a span svg *,
+.dark-theme .home-3 .sk-main-menu ul li a span svg * {
   fill: #a6a6a6;
 }
-.dark-theme .home-1 .bastami-main-menu ul li:hover a span svg * {
+.dark-theme .home-1 .sk-main-menu ul li:hover a span svg * {
   fill: white;
 }
 .dark-theme
@@ -5297,3 +5340,21 @@ textarea:focus::placeholder {
 .dark-theme .sk-parsonal-info-btn .btn-2 {
   color: #fff;
 }
+
+/* 10=====================animations========================= */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sk-animations {
+  animation: fadeInUp 0.8s ease-out; /* Adjust the animation duration and easing function as needed */
+}
+

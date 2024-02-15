@@ -65,6 +65,7 @@ export default function RootLayout({ children, params: { lang } }) {
             <div className="container z-index-3">
               <div className="row">
                 {showPersonalInfo && <PersonalInfo lang={lang} />}
+     
                 {children}
                 <Menu lang={lang} />
                 <FlareCursor />

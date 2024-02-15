@@ -13,6 +13,7 @@ export default function PersonalInfo({ lang }) {
       <div className="sk-parsonal-info-area">
         <div className="sk-parsonal-info-wrap">
           <div className="sk-parsonal-info-img">
+          <div className="sk-animations">
             <Image
               width={240}
               height={240}
@@ -20,13 +21,16 @@ export default function PersonalInfo({ lang }) {
               alt="avatar"
             />
           </div>
-
+          </div>
           <h4 className="sk-parsonal-info-name">
-            <a href="#">{profileInfo[lang].name}</a>
+          <a>{profileInfo[lang].name}</a>
           </h4>
+         
           <span className="sk-parsonal-info-bio mb-15">
             {profileInfo[lang].title}
           </span>
+         
+        
 
           <ul className="sk-parsonal-info-social-link mb-30">
             {socialMediaData.map((elm, i) => (

@@ -24,7 +24,7 @@ export default function Skills({ lang }) {
             <div className="progress-bar-wrap">
               <div
                 className={`progress-line ${elm.progressClass}`}
-                style={{ width: `${elm.progress}%` }}></div>
+                style={{ width: `${elm.progress}%`, "--progress-width": `${elm.progress}%`  }}></div>
             </div>
           </div>
         ))}

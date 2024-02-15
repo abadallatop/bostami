@@ -10,6 +10,7 @@ export default function AboutOne({ lang }) {
   return (
     <div className="col-xxl-8 col-xl-9">
       <div className="sk-page-content-wrap">
+      <div className="sk-animations">
         <div className="section-wrapper pl-60 pr-60 pt-60">
           <div className="sk-page-title-wrap mb-15">
             <h2 className="page-title" lang={lang}>
@@ -109,6 +110,7 @@ export default function AboutOne({ lang }) {
           </span>
         </div>
       </div>
+    </div>
     </div>
   );
 }

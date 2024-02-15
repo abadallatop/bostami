@@ -11,7 +11,7 @@ export default function Menu({ lang }) {
   return (
     <div className="col-xxl-1 d-xxl-block d-none">
       <div className="sk-main-menu-wrap">
-        <nav className="bastami-main-menu main_menu">
+        <nav className="sk-main-menu main_menu">
           <ul>
             {menuItems[currentLang].map((elm, i) => (
               <li className={`${pathname == elm.href && "active"}  `} key={i}>
