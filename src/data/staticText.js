@@ -33,9 +33,9 @@ export const staticText = {
       he: "תצוגה מקדימה :",
     },
     client: {
-      ar: "عميل :",
-      en: "Client :",
-      he: "לקוח :",
+      ar: "أدوات التطوير",
+      en: "Development Tools:",
+      he: "כלי פיתוח",
     },
   },
   contact: {

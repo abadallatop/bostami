@@ -7,7 +7,7 @@ export const portfolioData = [
     target: "#portfolio-1",
     category: ["Windows Application"],
     languages: ["Python"],
-    client: "SCE",
+    client: "PyCharm",
     previewLink: "#",
     previewName: "Youtube",
     en: {
@@ -126,7 +126,7 @@ export const portfolioData = [
     category: ["Phone Application"],
 
     languages: ["Java", "XML"],
-    client: "SCE",
+    client: "Android Studio",
     previewLink: "#",
     previewName: "YouTube",
     en: {
@@ -267,7 +267,7 @@ export const portfolioData = [
     target: "#portfolio-1",
     category: ["Phone Application"],
     languages: ["JAVA", "XML", "PHP", "HTML"],
-    client: "Deqa",
+    client: "Android Studio",
     previewLink: "https://youtu.be/q8QYNhOvixg",
     previewName: "YouTube",
     en: {
@@ -543,7 +543,7 @@ export const portfolioData = [
     target: "#portfolio-1",
     category: ["Website"],
     languages: ["Java", "React", "SCSS", "SQL"],
-    client: "SCE",
+    client: "VsCode IntelliJ IDEA",
     previewLink: "https://youtu.be/QC-Hofmy7HM",
     previewName: "YouTube",
     en: {
@@ -622,7 +622,7 @@ export const portfolioData = [
     target: "#portfolio-1",
     category: ["Website"],
     languages: ["C#", "HTMl", "CSS"],
-    client: "SCE",
+    client: "Visual Studio",
     previewLink: "https://youtu.be/Ambkd9l0r0c",
     previewName: "YouTube",
     en: {
@@ -733,7 +733,7 @@ export const portfolioData = [
     category: ["Windows Application"],
 
     languages: ["JavaFx"],
-    client: "SCE",
+    client: "IntelliJ IDEA",
     previewLink: "https://youtu.be/VVLAjgNPgDM",
     previewName: "YouTube",
     en: {
