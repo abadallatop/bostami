@@ -53,7 +53,8 @@ export default function ContactForm({ lang }) {
       <div className="form-input-item mb-60">
         <label
           style={activeInputBoxes.includes("name") ? { color: "#FE7878" } : {}}
-          className="input-lebel name">
+          className="input-lebel name"
+        >
           {staticText.contact.name[lang]}
         </label>
         <input
@@ -76,7 +77,8 @@ export default function ContactForm({ lang }) {
       <div className="form-input-item mb-60">
         <label
           style={activeInputBoxes.includes("gmail") ? { color: "#1B74E4" } : {}}
-          className="input-lebel gmail">
+          className="input-lebel gmail"
+        >
           {staticText.contact.email[lang]}
         </label>
         <input
@@ -101,7 +103,8 @@ export default function ContactForm({ lang }) {
           style={
             activeInputBoxes.includes("message") ? { color: "#CE65F3" } : {}
           }
-          className="input-lebel message">
+          className="input-lebel message"
+        >
           {staticText.contact.message[lang]}
         </label>
         <textarea
@@ -120,7 +123,8 @@ export default function ContactForm({ lang }) {
               : {}
           }
           cols="30"
-          rows="10"></textarea>
+          rows="10"
+        ></textarea>
       </div>
       <div className="form-btn-wrap">
         <button type="submit" value="Send" className="form-btn">

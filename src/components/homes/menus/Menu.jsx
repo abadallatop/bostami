@@ -3,30 +3,28 @@
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 export default function Menu({ setMenuOpen, data, lang }) {
-
-  let  pathname = usePathname();
-  
+  let pathname = usePathname();
 
   const currentLang = lang || "en";
 
-  if (pathname.split('/').length <= 2) {
+  if (pathname.split("/").length <= 2) {
     pathname = `/${currentLang}/home`;
   }
- 
 
   return (
     <div className="mean-bar">
       <a
         href="#nav"
-        className="meanmenu-reveal"
-        style={{ right: "0px", left: "auto", display: "inline" }}>
+        className="meanmenu-reveal "
+        style={{ right: "0px", left: "auto", display: "inline" }}
+      >
         <span>
           <span>
             <span></span>
           </span>
         </span>
       </a>
-      <nav className="mean-nav">
+      <nav className="mean-nav  ">
         <ul>
           {data?.[lang]?.map((elm, i) => (
             <li
@@ -37,12 +35,14 @@ export default function Menu({ setMenuOpen, data, lang }) {
               style={{ paddingTop: "5px", paddingBottom: "4px" }}
               onClick={() => {
                 setMenuOpen(false);
-              }}>
+              }}
+            >
               <Link href={elm.href}>
                 <span>
                   <i
                     style={{ fontSize: "18px", marginRight: "10px" }}
-                    className={elm.icon}></i>
+                    className={elm.icon}
+                  ></i>
                 </span>
                 {elm.text}
               </Link>

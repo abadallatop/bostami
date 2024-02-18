@@ -2307,7 +2307,6 @@ textarea:focus::placeholder {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  
 }
 .sk-header-menu-btn .menu-btn {
   position: relative;
@@ -2847,9 +2846,6 @@ textarea:focus::placeholder {
   }
 }
 
-
-
-
 .sk-parsonal-info-img {
   width: 240px;
   height: 240px;
@@ -2859,8 +2855,7 @@ textarea:focus::placeholder {
   margin-bottom: 21px;
   margin-top: -180px;
   box-shadow: 0 4px 8px var(--shadow);
-  transition: box-shadow 0.3s ease; 
-
+  transition: box-shadow 0.3s ease;
 }
 
 .sk-parsonal-info-img:hover {
@@ -3183,9 +3178,7 @@ textarea:focus::placeholder {
 ******************************************************* 
 *************************************************************** */
 
-
-.sk-what-do-wrap{
- 
+.sk-what-do-wrap {
 }
 
 .sk-what-do-item {
@@ -3195,11 +3188,11 @@ textarea:focus::placeholder {
   padding: 20px;
   padding-bottom: 15px;
   margin-bottom: 30px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 
   &:hover {
-    transform: scale(1.05); 
-    box-shadow: 0 8px 16px var(--shadow); 
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px var(--shadow);
   }
 }
 @media (max-width: 767px) {
@@ -3278,7 +3271,7 @@ textarea:focus::placeholder {
   padding: 20px;
   border-radius: 12px;
   padding-top: 25px;
-  box-shadow: 0 4px 8px var(--shadow); 
+  box-shadow: 0 4px 8px var(--shadow);
 }
 .sk-card-item .card-subtitle {
   display: block;
@@ -3342,7 +3335,7 @@ textarea:focus::placeholder {
 .progress-line {
   height: 10px;
   border-radius: 5px;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   animation: progressAnimation 4s ease-out;
 }
 
@@ -3381,11 +3374,11 @@ textarea:focus::placeholder {
   padding: 5px 20px;
   margin-right: 10px;
   margin-bottom: 20px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 
   &:hover {
-    transform: scale(1.05); 
-    box-shadow: 0 8px 16px var(--shadow); 
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px var(--shadow);
   }
 }
 @media (max-width: 767px) {
@@ -5359,3 +5352,7 @@ textarea:focus::placeholder {
   animation: fadeInUp 0.8s ease-out; /* Adjust the animation duration and easing function as needed */
 }
 
+/* ===============shadow=========== */
+.shadow {
+  box-shadow: 0px 2px 4px var(--shadow);
+}
