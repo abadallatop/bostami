@@ -2,7 +2,7 @@ export const profileInfo = {
   imageSrcOne: "/assets/img/parsonal-info/parson-img-1.png",
   en: {
     name: "Abdullah Sheikh Khalil",
-    title: "Computer Software Engineering",
+    title: "Software Engineering",
   },
   ar: {
     name: "عبد الله شيخ خليل",

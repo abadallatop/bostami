@@ -66,7 +66,11 @@ export default function PersonalInfo({ lang }) {
           </div>
 
           <div className="sk-parsonal-info-btn  ">
-            <a className="btn-1 shadow" href="/cv.pdf" download>
+            <a
+              className="btn-1 shadow"
+              href="https://drive.google.com/file/d/1tdyZ73B4A5eN4dSXwBAwGtDCxv4QrM42/view?usp=sharing"
+              target="_blank"
+            >
               <span style={{ color: "#fff" }} className="icon ">
                 <i className="fa-regular fa-download"></i>
               </span>

@@ -40,7 +40,6 @@ export const contactData = {
         value: "03 مارس 1999",
       },
     },
-    // Add more Arabic data items as needed
   ],
   en: [
     {
@@ -83,7 +82,6 @@ export const contactData = {
         value: "Mar 03, 1999",
       },
     },
-    // Add more English data items as needed
   ],
   he: [
     {
@@ -126,6 +124,5 @@ export const contactData = {
         value: "03 במרץ 1999",
       },
     },
-    // Add more Hebrew data items as needed
   ],
 };
