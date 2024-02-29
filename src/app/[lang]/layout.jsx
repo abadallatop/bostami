@@ -58,6 +58,7 @@ export default function RootLayout({ children, params: { lang } }) {
           draggable
           pauseOnHover
         />
+
         <div style={{ direction: isRTL ? "rtl" : "ltr" }}>
           <div className="page-wrapper home-1">
             <div className="gif-overlay"></div>
@@ -65,7 +66,7 @@ export default function RootLayout({ children, params: { lang } }) {
             <div className="container z-index-3">
               <div className="row">
                 {showPersonalInfo && <PersonalInfo lang={lang} />}
-     
+
                 {children}
                 <Menu lang={lang} />
                 <FlareCursor />

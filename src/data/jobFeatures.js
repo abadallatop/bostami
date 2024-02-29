@@ -1,28 +1,25 @@
 export const items = [
   {
     id: 1,
-    icon: "/assets/img/design.svg",
-    title: "Ui/Ux Design",
+    icon: "/assets/img/devops.svg",
+    title: "DevOps Expertise",
     description:
-      "UI (User Interface) design focuses on creating visually appealing and interactive interfaces, while UX (User Experience) design emphasizes crafting seamless and satisfying interactions. Together, they aim to enhance the overall usability and accessibility of digital products.",
+      "My approach to DevOps involves automating processes, ensuring scalability, and maintaining a secure and efficient infrastructure. I thrive in creating environments where development and operations work seamlessly together to deliver top-notch applications.",
     bg: "bg-prink",
     ar: {
-      title: "تصميم واجهة المستخدم / تجربة المستخدم",
+      title: "خبرة DevOps",
       description:
-        "يركز تصميم واجهة المستخدم (UI) على إنشاء واجهات تفاعلية وجذابة بصريًا، بينما يبرز تصميم تجربة المستخدم (UX) على صياغة تفاعلات سلسة ومرضية. معًا، يهدفون إلى تعزيز إجمالي استخدام وإمكانية الوصول للمنتجات الرقمية.",
-      bg: "bg-prink",
+        "نهجي في مجال DevOps يشمل أتمتة العمليات، ضمان القابلية للتوسع، والحفاظ على بنية تحتية آمنة وفعّالة. أزدهر في إنشاء بيئات تعمل فيها قسمي التطوير والعمليات بشكل سلس معًا لتقديم تطبيقات متميزة.",
     },
     en: {
-      title: "Ui/Ux Design",
+      title: "DevOps Expertise",
       description:
-        "UI (User Interface) design focuses on creating visually appealing and interactive interfaces, while UX (User Experience) design emphasizes crafting seamless and satisfying interactions. Together, they aim to enhance the overall usability and accessibility of digital products.",
-      bg: "bg-prink",
+        "My approach to DevOps involves automating processes, ensuring scalability, and maintaining a secure and efficient infrastructure. I thrive in creating environments where development and operations work seamlessly together to deliver top-notch applications.",
     },
     he: {
-      title: "עיצוב UI/UX",
+      title: "מומחיות DevOps",
       description:
-        "עיצוב ממשק משתמש (UI) מתמקד ביצירת ממשקים חזוניים ואינטראקטיביים, תוך שעיצוב חוויית המשתמש (UX) מדגיש בבניית תגובות חלקות ומספקות. ביחד, הם יוצרים לשדר טובה ולהקל על השימוש במוצרים הדיגיטליים.",
-      bg: "bg-prink",
+        "הגישה שלי ל-DevOps כוללת אוטומציה של תהליכים, הבטחת קלות התרחבות, ותחזוקה של תשתית בטוחה ויעילה. אני מצליח ליצור סביבות בהן צוותי הפיתוח והתפעול עובדים בצורה חלקה יחד על מנת לספק אפליקציות מעולות.",
     },
   },
   {
