@@ -18,5 +18,24 @@ export const experiences = [
       company: "דקה, ישראל",
     },
   },
+  {
+    id: 2,
+    bgClass: "bg-catkrill",
+    en: {
+      session: "April 2024 - Present",
+      role: "Instructor",
+      company: "ALEH, Israel",
+    },
+    ar: {
+      session: "أبريل 2024 - الحاضر",
+      role: "مدرس",
+      company: "ALEH، إسرائيل",
+    },
+    he: {
+      session: "אפריל 2024 - הווה",
+      role: "מדריך",
+      company: "אלי, ישראל",
+    },
+  },
   // Add more experience items as needed
 ];
