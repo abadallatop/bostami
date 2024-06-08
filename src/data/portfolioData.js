@@ -865,6 +865,51 @@ export const portfolioData = [
       ],
     },
   },
+  {
+  "id": 8,
+  "class": "isotop-item website",
+  "bgClass": "bg-xyz",
+  "imgSrc": "/assets/img/work/azan.png",
+  "target": "#portfolio-8",
+  "category": ["Website Application"],
+  "languages": ["React", "Next.js"],
+  "client": "Your Client",
+  "previewLink": "https://example.com",
+  "previewName": "Live",
+  "en": {
+    "project": "Website Application",
+    "subtitle": "Next.js",
+    "title": "Azan the Weather",
+    "desc": [
+      "<div class=\"project-description\">",
+      "<p>This is a static website that displays the Azan (prayer times) in all countries around the world. Users can click on 'Settings' to select their country, and the website will show the prayer times accordingly. Additionally, the website provides weather information and supports virtual and 3D views.</p>",
+      "<p>The website features a dark/light mode toggle for improved readability and user experience in different lighting conditions.</p>",
+      "</div>"
+    ]
+  },
+  "ar": {
+    "project": "تطبيق موقع الويب",
+    "subtitle": "Next.js",
+    "title": "أذان الطقس",
+    "desc": [
+      "<div class=\"project-description\">",
+      "<p>هذا الموقع الثابت يعرض أوقات الأذان في جميع البلدان حول العالم. يمكن للمستخدمين النقر على 'الإعدادات' لتحديد بلدهم، وسيقوم الموقع بعرض أوقات الصلاة بناءً على ذلك. بالإضافة إلى ذلك، يقدم الموقع معلومات عن الطقس ويدعم العرض الافتراضي وعرض 3D.</p>",
+      "<p>يتميز الموقع بزر تبديل الوضع الداكن / الفاتح لتحسين قراءة المحتوى وتجربة المستخدم في ظروف الإضاءة المختلفة.</p>",
+      "</div>"
+    ]
+  },
+  "he": {
+    "project": "יישום אתר אינטרנט",
+    "subtitle": "Next.js",
+    "title": "תפילת המזג אוויר",
+    "desc": [
+      "<div class=\"project-description\">",
+      "<p>זוהי אתר סטטי המציג את זמני התפילה בכל המדינות ברחבי העולם. המשתמשים יכולים ללחוץ על 'הגדרות' כדי לבחור את מדינתם, והאתר יציג את זמני התפילה בהתאם. בנוסף, האתר מספק מידע על מזג האוויר ותומך בתצוגה וירטואלית ותצוגה 3D.</p>",
+      "<p>האתר מציע למשתמשים אפשרות להחליף בין מצב ראייה חשוך / בהיר לשיפור קריאות הטקסט וחוויית המשתמש בתנאי תאורה שונים.</p>",
+      "</div>"
+    ]
+  }
+},
 ];
 export const filterButtons = [
   {
