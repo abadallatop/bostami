@@ -874,7 +874,7 @@ export const portfolioData = [
   "category": ["Website Application"],
   "languages": ["React", "Next.js"],
   "client": "Your Client",
-  "previewLink": "https://example.com",
+  "previewLink": "https://myazan.netlify.app",
   "previewName": "Live",
   "en": {
     "project": "Website Application",
