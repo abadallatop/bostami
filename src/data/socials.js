@@ -14,7 +14,7 @@ export const socialMediaData = [
   {
     id: 3,
     className: "fa-brands fa-linkedin-in",
-    href: "#https://linkedin.com/in/abedalla-sheikh-khalil-11a4982b7",
+    href: "www.linkedin.com/in/abdallah-shekh-khalil-363236137",
     color: "#144679",
   },
   {
